@@ -1,0 +1,33 @@
+{
+  "name": "phaser-teletype",
+  "version": "0.1.1",
+  "description": "Simple typing animation",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "coffeebar --watch .",
+    "preversion": "eslint .",
+    "pub": "np --no-cleanup"
+  },
+  "keywords": [
+    "phaser"
+  ],
+  "author": "samme",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^2.6.2"
+  },
+  "devDependencies": {
+    "coffeebar": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samme/phaser-teletype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samme/phaser-teletype/issues"
+  },
+  "homepage": "https://github.com/samme/phaser-teletype#readme"
+}
