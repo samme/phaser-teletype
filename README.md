@@ -1,3 +1,5 @@
+![Screenshot](https://samme.github.io/phaser-teletype/screenshot.png)
+
 Use
 ---
 
