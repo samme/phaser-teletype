@@ -2,8 +2,6 @@
 
 {Phaser} = this
 
-FONT = "fonts/bitmapFonts/nokia16"
-
 RATE = 20
 
 SECOND = 1000
@@ -46,11 +44,10 @@ window.GAME = new (Phaser.Game)
       return
 
     preload: ->
-      @load.baseURL = "http://examples.phaser.io/assets/"
-      @load.crossOrigin = "anonymous"
-      @load.bitmapFont "font", "#{FONT}.png", "#{FONT}.xml"
-      @load.image "atari", "sprites/atari130xe.png"
-      @load.image "starfield", "skies/starfield.png"
+      @load.path = "example/assets/"
+      @load.bitmapFont "font", "nokia16.png", "nokia16.xml"
+      @load.image "atari", "atari130xe.png"
+      @load.image "starfield", "starfield.png"
       return
 
     create: ->
